@@ -1,0 +1,102 @@
+.flex-container {
+    display: flex;
+}
+#About, h3 {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+main {
+    background-color: #e1f5fe; 
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2304a7d2' fill-opacity='0.25' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    border-bottom-style: solid; 
+    border: 2% solid black;
+}
+#name, nav {
+    font-family: fantasy;
+}
+nav {
+    color: teal;
+    width: 40%;
+    margin-bottom: 0px;
+    margin-left: 35%;
+    height: 30px;
+    font-size: 30px;
+}
+nav > a {
+    font-size: 30px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-bottom-style: solid; 
+    border: 2% solid black;
+    font-family: fantasy;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color:darkcyan;
+    height: 25%;
+    padding: 20px;
+}
+a:link, a:visited {
+    color: teal;
+}
+h3 {
+    font-family: fantasy;
+    color: teal;
+    border-bottom-style: solid; 
+    border: 2% solid black;
+    font-size: 25px;
+}
+article {
+    text-align: justify;
+}
+h2 {
+    text-align: left; 
+    font-family: fantasy;
+    color: teal;
+    border-bottom-style: solid; 
+    border: 2% solid black;
+    font-size: 30px;
+}
+#About {
+    background-color: white;
+    width: 35%;
+    margin-left: 15%;
+    padding: 25px;
+    margin-top: 3%;
+}
+#Socials {
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10px;
+    width: 15%;
+    height: 250px;
+    margin-top: 3%;
+}
+#Copy {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#name {
+    background-color: teal;
+    color: white;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+.photo-social {
+    filter: drop-shadow(5px 5px 4px gray);
+    padding: 10px;
+}
+.photo-me {
+    margin: 10px;
+    float: left; 
+    filter: drop-shadow(5px 5px 4px gray);
+}

@@ -3,7 +3,6 @@
 }
 #About, h3 {
     display: flex;
-    padding: 20px;
     flex-direction: column;
 }
 main {
@@ -53,6 +52,7 @@ h3 {
 }
 article {
     text-align: justify;
+    margin-top: 0px;
 }
 h2 {
     text-align: left; 
@@ -66,7 +66,8 @@ h2 {
     background-color: white;
     width: 35%;
     margin-left: 15%;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-top: 3%;
     margin-bottom: 10% ;
 }
@@ -82,6 +83,7 @@ h2 {
 }
 #Copy {
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
 }
 #name {
     background-color: teal;
@@ -97,7 +99,9 @@ h2 {
     padding: 10px;
 }
 .photo-me {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     float: left; 
     filter: drop-shadow(5px 5px 4px gray);
 }
